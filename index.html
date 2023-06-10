@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NC Pedia</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css"> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script> -->
+  <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#title">
+        <img src="images\PEDIA-removebg-preview.png" alt="" width="auto" height="70px">
+      </a>
+      &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#title">Home</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#features">About</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title -->
+  <section id="title" class="gradient-background">
+
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images\hero_mobile.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200"
+            loading="lazy">
+        </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Discover the Latest and Most Useful Tech Stuff</h1>
+            <br>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-light btn-lg px-4 me-md-2 text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg>
+                Youtube
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4 text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+                Instagram
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4 text-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                </svg>
+                Future Tools
+              </button>
+            </div>    
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Features -->
+<section id="features">
+  <div class="container mt-5">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
+            viewBox="0 0 16 16">
+            <path
+              d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+            <path
+              d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Informative and Entertaining Content.</h3>
+          <p>Stay up-to-date with the latest tech news, gadgets, software, and hardware.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard"
+            viewBox="0 0 16 16">
+            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">In-Depth Reviews and Tutorials.</h3>
+          <p>Get detailed insights through reviews, tutorials, and comparisons to make informed decisions.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+              <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+            </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Helpful Comparisons.</h3>
+          <p>Compare different options to find the best fit for your needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="gradient-background">
+ <!-- Resources -->
+ <section id="resources">
+  <div class="container">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h2 class="display-4 fw-normal">Explore Our Resources</h2>
+      <p class="fs-5 text-body-secondary">Access our wide range of resources to stay informed and make informed decisions.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Video Library</h4>
+          </div>
+          <div class="card-body">
+            <img src="images\yt.png" class="card-img-top" alt="Video Library">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Access our extensive video library for informative and entertaining content.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark" onclick="window.location.href='https://www.youtube.com/@Ncpedia'">Explore</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Blogs</h4>
+          </div>
+          <div class="card-body">
+            <img src="images\blogs.png" class="card-img-top" alt="Blogs">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Read our insightful blog posts covering the latest tech news and trends.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark" onclick="window.location.href='under_contruction.html'">Read</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Prompts/Hacks</h4>
+          </div>
+          <div class="card-body">
+            <img src="images\hacks.png" class="card-img-top" alt="Prompts/Hacks">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Discover useful prompts and hacks to enhance your tech skills and productivity.</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark" onclick="window.location.href='under_contruction.html'">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="space" class="gradient-background">
+  <br><br><br>
+</section>
+<br>
+ <!-- Services -->
+<section id="services">
+  <div class="container">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h2 class="display-4 fw-normal">Our Services</h2>
+      <p class="fs-5 text-body-secondary">Choose from a variety of services to meet your needs.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Content  Writing</h4>
+          </div>
+          <div class="card-body">
+            <img src="images\undraw_Content_team_re_6rlg.png" class="card-img-top" alt="Freelance Content Script Writing">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>High-quality content tailored to your needs.We provide scripts for youtube videos,Reels,blogs and many more.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Graphic/Web Design</h4>
+          </div>
+          <div class="card-body">
+            <img src="images\undraw_Designer_re_5v95.png" class="card-img-top" alt="Graphic/Web Design">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Create stunning designs for your brand or website. We design websites , youtube thumbnails,blog posts,etc.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Website Development</h4>
+          </div>
+          <div class="card-body">
+            <img src="images\undraw_Web_developer_re_h7ie.png" class="card-img-top" alt="Website Development">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Get your website built by our Freelance developers at minimal costs. We are well versed with html,css,js.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="space" class="gradient-background">
+  <br><br><br>
+</section>
+
+<section id="blogs">
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h2 class="display-4 fw-normal">Blogs</h2>
+    <p class="fs-5 text-body-secondary">Explore our collection of insightful blog posts that cover a wide range of topics. Whether you're interested in artificial intelligence, machine learning, brain-computer interfaces, data science, or robotics, our blogs provide valuable information and perspectives to enhance your understanding. Choose from a variety of engaging articles to meet your interests and stay updated with the latest trends and advancements in these exciting fields.</p>
+  </div>
+
+  <div id="blogCarousel-1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="blog img/Ai.jpg" class="bd-placeholder-img card-img-top mx-auto" width="100%" height="225" role="img" alt="AI Image">
+                  <div class="card-body">
+                    <h5 class="card-title">What is AI?</h5>
+                    <p class="card-text">AI stands for Artificial Intelligence. It is a branch of computer science that focuses on creating intelligent machines that can perform tasks without human intervention.</p>
+                    <br><div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="blog img/ml.jpg" class="bd-placeholder-img card-img-top mx-auto" width="100%" height="225" role="img" alt="ML Image">
+                  <div class="card-body">
+                    <h5 class="card-title">What is Machine Learning?</h5>
+                    <p class="card-text">Machine Learning is a subset of AI that focuses on developing algorithms and statistical models that enable computers to learn and make predictions from data without being explicitly programmed.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="blog img/bci.jpg" class="bd-placeholder-img card-img-top mx-auto" width="100%" height="225" role="img" alt="BCI Image">
+                  <div class="card-body">
+                    <h5 class="card-title">What are Brain-Computer Interfaces (BCI)?</h5>
+                    <p class="card-text">Brain-Computer Interfaces (BCI) are systems that enable direct communication between the brain and external devices. They allow individuals to control computers or other devices using their brain signals.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel-1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel-1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="blogCarousel-2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="blog img/iot.jpg" class="bd-placeholder-img card-img-top mx-auto" width="100%" height="225" role="img" alt="IoT Image">
+                  <div class="card-body">
+                    <h5 class="card-title">What is the Internet of Things (IoT)?</h5>
+                    <p class="card-text">The Internet of Things (IoT) refers to the network of physical devices, vehicles, appliances, and other objects embedded with sensors, software, and connectivity to enable them to connect and exchange data.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="blog img/ds.jpg" class="bd-placeholder-img card-img-top mx-auto" width="100%" height="225" role="img" alt="Data Science Image">
+                  <div class="card-body">
+                    <h5 class="card-title">What is Data Science?</h5>
+                    <p class="card-text">Data Science is an interdisciplinary field that combines techniques from statistics, mathematics, and computer science to extract knowledge and insights from structured and unstructured data.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="blog img/robotics.jpg" class="bd-placeholder-img card-img-top mx-auto" width="100%" height="225" role="img" alt="Robotics Image">
+                  <div class="card-body">
+                    <h5 class="card-title">What is Robotics?</h5>
+                    <p class="card-text">Robotics is a field that involves the design, construction, operation, and use of robots. It combines various disciplines such as mechanical engineering, electrical engineering, and computer science.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel-2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel-2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+</section>
+
+
+<section id="space" class="gradient-background">
+  <br><br><br>
+</section>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <p>Feel free to reach out to us for any inquiries or questions.</p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/shiva-nagachander-r-53a707254/"><i class="bi bi-linkedin fs-4"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/shiva_nc_/?igshid=ZDdkNTZiNTM%3D"><i class="bi bi-instagram fs-4"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/ShivaNagachander"><i class="bi bi-github fs-4"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/@Ncpedia"><i class="bi bi-youtube fs-4"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/ncpedia"><i class="bi bi-twitter fs-4"></i></a></li>
+            <li class="list-inline-item"><a href="https://linktr.ee/shiva_nc"><i class="bi bi-envelope fs-4"></i></a></li>
+          </ul>                 
+        </div>
+        <div class="col-md-6">
+          <h2>Send us a Query</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <section id="contact" class="gradient-background">
+    <div class="container ">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+        <div class="col mb-3">
+
+          <p class="text-body-secondary">© Nc Pedia</p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </footer></div></section>
+      <section id="space" class="gradient-background">
+        <center><p class="love">Made with <i class="bi bi-heart"></i> by <a href="http://">Shiva Nc</a> </p></center>
+      </section>
+</body>
+</html>
+
+
+  
