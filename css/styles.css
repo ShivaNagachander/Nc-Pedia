@@ -1,0 +1,41 @@
+.gradient-background{
+  background: linear-gradient(300deg, #A7ECEE, #FFF4F4, #606C5D);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 50% 25%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.list-inline-item a {
+  transition: transform 0.3s ease;
+}
+
+.list-inline-item a:hover {
+  transform: scale(1.5);
+}
+
+.card-img-top {
+height: 175px;
+width: 180px;
+}
